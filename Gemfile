@@ -8,5 +8,6 @@ gem "dotenv"
 gem "roda"
 
 group :development do
+  gem "rerun"
   gem "thin"
 end

@@ -4,7 +4,16 @@ GEM
     daemons (1.4.1)
     dotenv (2.7.6)
     eventmachine (1.2.7)
+    ffi (1.15.4)
+    listen (3.7.0)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
     rack (2.2.3)
+    rb-fsevent (0.11.0)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    rerun (0.13.1)
+      listen (~> 3.0)
     roda (3.49.0)
       rack
     thin (1.8.1)
@@ -17,6 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  rerun
   roda
   thin
 
