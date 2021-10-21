@@ -1,1 +1,4 @@
 tags
+
+# secrets via dotenv
+.env

@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     daemons (1.4.1)
+    dotenv (2.7.6)
     eventmachine (1.2.7)
     rack (2.2.3)
     roda (3.49.0)
@@ -15,6 +16,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  dotenv
   roda
   thin
 
