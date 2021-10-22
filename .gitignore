@@ -1,4 +1,5 @@
 tags
+.bundle
 
 # secrets via dotenv
 .env
