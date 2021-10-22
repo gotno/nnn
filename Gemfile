@@ -6,6 +6,7 @@ ruby "3.0.0"
 
 gem "dotenv"
 gem "roda"
+gem "tilt"
 
 group :development do
   gem "rerun"
